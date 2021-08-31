@@ -4,7 +4,7 @@ import { calcTime, convertMoney } from '../../helpers';
 
 import { StyledMovieInfoBar } from '../styles/StyledMovieInfoBar';
 
-const MovieInfoBar = ({ time, budget, revenue }) => (
+const MovieInfoBar = ({ time, budget, revenue,release_date}) => (
   <StyledMovieInfoBar>
     <div className="movieinfobar-content">
       <div className="movieinfobar-content-col">
